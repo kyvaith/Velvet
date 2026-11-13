@@ -2,6 +2,9 @@
 
 **A functional, open-source Netflix client for Android — with real Netflix sign-in, catalog browsing, and protected video playback.**
 
+[<img src="docs/screenshot1.jpg" width="30%">](docs/screenshot1.jpg)
+[<img src="docs/screenshot2.jpg" width="30%">](docs/screenshot2.jpg)
+
 Velvet connects to Netflix using your own account and plays Netflix streams through Android Media3 and the device's Widevine implementation. It is a working client, not a frontend mockup, a sample-video player, or an app that substitutes content from other providers.
 
 Real playback was confirmed on **Google Pixel 9 Pro XL, Android 17 / API 37, Widevine L1** with version **0.1.11** on November 13, 2026. Two playback sessions completed authentication, manifest retrieval, license acquisition, DRM key loading, and first-frame rendering. The user also confirmed that playback worked. This establishes working playback on that device; it does not establish support for every Netflix feature, account, or device. See [verification](docs/VERIFICATION.md).
