@@ -38,7 +38,7 @@ Widevine L1 alone does not guarantee that Netflix will accept a particular devic
 
 ## Install and sign in
 
-Obtain an APK from this repository's releases when available, or [build it yourself](docs/BUILDING.md).
+Download the signed APK from [GitHub Releases](https://github.com/kyvaith/Velvet/releases/latest), or [build it yourself](docs/BUILDING.md).
 
 1. Install the APK and open Velvet.
 2. Open sign-in, complete authentication on Netflix's website, and select your profile.
