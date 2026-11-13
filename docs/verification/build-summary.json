@@ -1,0 +1,292 @@
+{
+  "version": "0.1.12",
+  "version_code": 13,
+  "application_id": "pl.kyvaith.velvet",
+  "verified_utc": "2026-11-13T15:25:07.544900+00:00",
+  "build_tasks": [
+    ":app:assembleDebug",
+    ":app:testDebugUnitTest",
+    ":app:lintDebug"
+  ],
+  "build_attempt": 1,
+  "build_returncode": 0,
+  "build_duration_seconds": 399.968,
+  "frozen_source_file_count": 106,
+  "source_changed_during_or_after_build": false,
+  "unit_tests": {
+    "tests": 299,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "test_suite_count": 33,
+  "test_suites": [
+    {
+      "name": "pl.kyvaith.velvet.data.NetflixBrowserContextTest",
+      "tests": 4,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "name": "pl.kyvaith.velvet.data.NetflixCatalogParserTest",
+      "tests": 18,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "name": "pl.kyvaith.velvet.data.NetflixGraphQlTest",
+      "tests": 4,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "name": "pl.kyvaith.velvet.data.NetflixGraphTest",
+      "tests": 11,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "name": "pl.kyvaith.velvet.data.NetflixMetadataTest",
+      "tests": 3,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "name": "pl.kyvaith.velvet.data.NetflixOriginsTest",
+      "tests": 5,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "name": "pl.kyvaith.velvet.data.PageJsonTest",
+      "tests": 6,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "name": "pl.kyvaith.velvet.data.SessionDataTest",
+      "tests": 3,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "name": "pl.kyvaith.velvet.diagnostics.SessionLogTest",
+      "tests": 17,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "name": "pl.kyvaith.velvet.diagnostics.StartupDiagnosticWindowTest",
+      "tests": 4,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "name": "pl.kyvaith.velvet.playback.AndroidMslCryptoTest",
+      "tests": 17,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "name": "pl.kyvaith.velvet.playback.AndroidPlaybackIdentityTest",
+      "tests": 10,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "name": "pl.kyvaith.velvet.playback.BrowserMslCryptoTest",
+      "tests": 9,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "name": "pl.kyvaith.velvet.playback.KodiManifestRequestTest",
+      "tests": 4,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "name": "pl.kyvaith.velvet.playback.MslAuthenticationTest",
+      "tests": 3,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "name": "pl.kyvaith.velvet.playback.MslWireTest",
+      "tests": 18,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "name": "pl.kyvaith.velvet.playback.NativeAccountHttpTest",
+      "tests": 15,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "name": "pl.kyvaith.velvet.playback.NativeAccountSessionProviderTest",
+      "tests": 15,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "name": "pl.kyvaith.velvet.playback.NativeAndroidProfileTest",
+      "tests": 3,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "name": "pl.kyvaith.velvet.playback.NativeLoginTokenTest",
+      "tests": 2,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "name": "pl.kyvaith.velvet.playback.NativeMslAuthenticationTest",
+      "tests": 13,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "name": "pl.kyvaith.velvet.playback.NativePlaybackRequestsTest",
+      "tests": 9,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "name": "pl.kyvaith.velvet.playback.NativePlaybackSessionProviderTest",
+      "tests": 10,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "name": "pl.kyvaith.velvet.playback.NativeTokenAuthenticationTest",
+      "tests": 17,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "name": "pl.kyvaith.velvet.playback.NetflixDrmConfigurationTest",
+      "tests": 8,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "name": "pl.kyvaith.velvet.playback.NetflixManifestConverterTest",
+      "tests": 9,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "name": "pl.kyvaith.velvet.playback.NetflixMslSessionTest",
+      "tests": 7,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "name": "pl.kyvaith.velvet.playback.NetflixServiceErrorsTest",
+      "tests": 22,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "name": "pl.kyvaith.velvet.playback.PlaybackCookiesTest",
+      "tests": 6,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "name": "pl.kyvaith.velvet.playback.PlaybackHttpTest",
+      "tests": 9,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "name": "pl.kyvaith.velvet.playback.PlaybackOwnerTest",
+      "tests": 3,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "name": "pl.kyvaith.velvet.playback.PlaybackOwnershipTest",
+      "tests": 2,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "name": "pl.kyvaith.velvet.playback.WidevineChallengeDiagnosticsTest",
+      "tests": 13,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    }
+  ],
+  "lint": {
+    "errors": 0,
+    "fatal": 0,
+    "warnings": 12,
+    "unchanged_warning_categories_and_counts_since_0_1_11": true,
+    "warning_counts": {
+      "ApplySharedPref": 2,
+      "PrivateApi": 1,
+      "PictureInPictureIssue": 1,
+      "GradleDependency": 2,
+      "UseKtx": 6
+    }
+  },
+  "apk": {
+    "filename": "Velvet-0.1.12-debug.apk",
+    "size_bytes": 69646430,
+    "sha256": "bf7fd09fe5dbe31d762113f943260988cd7fd1d081f18e446fe60ef0beb196f1",
+    "package": "pl.kyvaith.velvet",
+    "version_code": 13,
+    "version_name": "0.1.12",
+    "min_sdk": 28,
+    "target_sdk": 35,
+    "signature_verified": true,
+    "signature_certificate_sha256": "2d430b3b7577a6d2ff17a8a0a60bb8ce0bd8e73f42fc82cdb25218f20f210745",
+    "same_signing_identity_as_0_1_11": true,
+    "manifest_unchanged_except_package_and_version": true,
+    "kotlin_files_unchanged_except_package": 86,
+    "build_configuration_unchanged_except_package_and_version": true,
+    "packaged_third_party_notice_matches_source_document": true,
+    "third_party_notice_sha256": "2aecb4a832b5e8a77a11c66ee074951b403737e4e88d4a614b4bfbcd6152f04d",
+    "installation_relationship_to_0_1_11": "Separate application ID/UID; not an in-place upgrade; saved login is not automatically migrated.",
+    "runtime_installation_test": "not_run"
+  },
+  "scope": "The package namespace, application ID, and version were changed. Original Kotlin source is byte-identical after reversing the package-name replacement. English project legal notices were updated.",
+  "device_tests_for_this_build": "Not run. User-confirmed playback and device-log analysis apply to version 0.1.11 before this package migration.",
+  "installation_note": "A different Android application ID installs as a separate app and requires one new sign-in; previous app credentials are not automatically copied."
+}
