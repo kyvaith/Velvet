@@ -38,7 +38,7 @@ Widevine L1 alone does not guarantee that Netflix will accept a particular devic
 
 ## Install and sign in
 
-Obtain an APK from this repository's releases when available, or [build it yourself](docs/BUILDING.md).
+Download the signed APK from [GitHub Releases](https://github.com/kyvaith/Velvet/releases/latest), or [build it yourself](docs/BUILDING.md).
 
 **Version 0.1.12 changes the Android application ID to `pl.kyvaith.velvet`.** Android treats it as a separate application from the earlier `pl.witke.velvet` package. It can be installed alongside the earlier build. You must sign in once in the new package; Android does not automatically transfer the old package's encrypted session, local resume positions, or diagnostic history.
 
