@@ -1,0 +1,433 @@
+{
+  "provenance": {
+    "referenceCommit": "bf91b55089b06bd892eb6cd1457b3a87341fb5bf",
+    "generation": "Unmodified AST-extracted Kodi functions; Android/aarch64; no HDCP override; synthetic inputs only.",
+    "sources": {
+      "handler": {
+        "url": "https://github.com/atrHusK/plugin.video.netflix/blob/bf91b55089b06bd892eb6cd1457b3a87341fb5bf/resources/lib/services/nfsession/msl/msl_handler.py",
+        "sha256": "59a34f7f9bb2d0e04707e6a60ed53e94111c0b787d361724a8db3c2579a05c08"
+      },
+      "builder": {
+        "url": "https://github.com/atrHusK/plugin.video.netflix/blob/bf91b55089b06bd892eb6cd1457b3a87341fb5bf/resources/lib/services/nfsession/msl/msl_request_builder.py",
+        "sha256": "460e1bb108335df4f43dc046d91367974adb5d13054bb94d59d5fbbccfeb62a5"
+      },
+      "utils": {
+        "url": "https://github.com/atrHusK/plugin.video.netflix/blob/bf91b55089b06bd892eb6cd1457b3a87341fb5bf/resources/lib/services/nfsession/msl/msl_utils.py",
+        "sha256": "bf6fd6e198fd2127cd760db11245f52bc25fc6bf6749d55a1d8b50e52e70d546"
+      },
+      "profiles": {
+        "url": "https://github.com/atrHusK/plugin.video.netflix/blob/bf91b55089b06bd892eb6cd1457b3a87341fb5bf/resources/lib/services/nfsession/msl/profiles.py",
+        "sha256": "bb999da9139b2bf16f188dfd14b2370d65beb7ac8bfda00216bb5c96637c3d71"
+      },
+      "identity": {
+        "url": "https://github.com/atrHusK/plugin.video.netflix/blob/bf91b55089b06bd892eb6cd1457b3a87341fb5bf/resources/lib/utils/esn.py",
+        "sha256": "fc44ee525cae0194b8d27ba7db267a4f0f88c318527d7f1b6a217e0ce530f738"
+      },
+      "device": {
+        "url": "https://github.com/atrHusK/plugin.video.netflix/blob/bf91b55089b06bd892eb6cd1457b3a87341fb5bf/resources/lib/common/device_utils.py",
+        "sha256": "bec0e951c3def4f80b4e5ffb377ef39215bcdaae70adc33708d9e7cfa042a97b"
+      }
+    }
+  },
+  "device": {
+    "manufacturer": "Google",
+    "model": "Pixel 9 Pro XL",
+    "systemId": "12345",
+    "securityLevel": "L1",
+    "suffix": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+  },
+  "nativeIdentity": "NFANDROID1-PRV-T-GOOGLPIXEL=9=PRO=XL-12345-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+  "userAgent": "Mozilla/5.0 (X11; CrOS aarch64 15183.69.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+  "context": {
+    "locale": "pl-PL",
+    "uiVersion": "ui-fixture-version",
+    "clientVersion": "6.0-fixture",
+    "buildIdentifier": "build-fixture-id",
+    "browserVersion": "159.0.FIXTURE",
+    "osName": "Linux",
+    "osVersion": "6.1"
+  },
+  "profiles": [
+    "heaac-2-dash",
+    "heaac-2hq-dash",
+    "BIF240",
+    "BIF320",
+    "playready-h264mpl30-dash",
+    "playready-h264mpl31-dash",
+    "playready-h264mpl40-dash",
+    "playready-h264hpl22-dash",
+    "playready-h264hpl30-dash",
+    "playready-h264hpl31-dash",
+    "playready-h264hpl40-dash",
+    "webvtt-lssdh-ios8",
+    "vp9-profile0-L21-dash-cenc",
+    "vp9-profile0-L30-dash-cenc",
+    "vp9-profile0-L31-dash-cenc",
+    "vp9-profile0-L40-dash-cenc"
+  ],
+  "cases": [
+    {
+      "name": "disconnected",
+      "input": {
+        "videoId": "80100172",
+        "xid": "170000000000000000",
+        "hdcp": "Disconnected",
+        "clientTimeSeconds": 1700000000
+      },
+      "endpoint": "https://www.netflix.com/msl/playapi/cadmium/licensedmanifest/1?reqAttempt=1&reqName=prefetch%2FlicensedManifest&clienttype=akira&uiversion=build-fixture-id&browsername=chrome&browserversion=159.0.fixture&osname=linux&osversion=6.1",
+      "request": {
+        "version": 2,
+        "url": "licensedManifest",
+        "id": 170000000000000000,
+        "languages": [
+          "pl-PL"
+        ],
+        "params": {
+          "type": "standard",
+          "manifestVersion": "v2",
+          "viewableId": 80100172,
+          "profiles": [
+            "heaac-2-dash",
+            "heaac-2hq-dash",
+            "BIF240",
+            "BIF320",
+            "playready-h264mpl30-dash",
+            "playready-h264mpl31-dash",
+            "playready-h264mpl40-dash",
+            "playready-h264hpl22-dash",
+            "playready-h264hpl30-dash",
+            "playready-h264hpl31-dash",
+            "playready-h264hpl40-dash",
+            "webvtt-lssdh-ios8",
+            "vp9-profile0-L21-dash-cenc",
+            "vp9-profile0-L30-dash-cenc",
+            "vp9-profile0-L31-dash-cenc",
+            "vp9-profile0-L40-dash-cenc"
+          ],
+          "flavor": "PRE_FETCH",
+          "drmType": "widevine",
+          "drmVersion": 25,
+          "usePsshBox": true,
+          "isBranching": false,
+          "useHttpsStreams": true,
+          "supportsUnequalizedDownloadables": true,
+          "imageSubtitleHeight": 1080,
+          "uiVersion": "ui-fixture-version",
+          "uiPlatform": "SHAKTI",
+          "clientVersion": "6.0-fixture",
+          "platform": "159.0.FIXTURE",
+          "osVersion": "6.1",
+          "osName": "Linux",
+          "supportsPreReleasePin": true,
+          "supportsWatermark": true,
+          "showAllSubDubTracks": false,
+          "videoOutputInfo": [
+            {
+              "type": "DigitalVideoOutputDescriptor",
+              "outputType": "unknown",
+              "supportedHdcpVersions": [],
+              "isHdcpEngaged": false
+            }
+          ],
+          "titleSpecificData": {
+            "80100172": {
+              "unletterboxed": true
+            }
+          },
+          "preferAssistiveAudio": false,
+          "isUIAutoPlay": false,
+          "isNonMember": false,
+          "desiredVmaf": "plus_lts",
+          "desiredSegmentVmaf": "plus_lts",
+          "requestSegmentVmaf": false,
+          "supportsPartialHydration": false,
+          "contentPlaygraph": [
+            "start"
+          ],
+          "supportsAdBreakHydration": true,
+          "liveMetadataFormat": "INDEXED_SEGMENT_TEMPLATE",
+          "useBetterTextUrls": true,
+          "profileGroups": [
+            {
+              "name": "default",
+              "profiles": [
+                "heaac-2-dash",
+                "heaac-2hq-dash",
+                "BIF240",
+                "BIF320",
+                "playready-h264mpl30-dash",
+                "playready-h264mpl31-dash",
+                "playready-h264mpl40-dash",
+                "playready-h264hpl22-dash",
+                "playready-h264hpl30-dash",
+                "playready-h264hpl31-dash",
+                "playready-h264hpl40-dash",
+                "webvtt-lssdh-ios8",
+                "vp9-profile0-L21-dash-cenc",
+                "vp9-profile0-L30-dash-cenc",
+                "vp9-profile0-L31-dash-cenc",
+                "vp9-profile0-L40-dash-cenc"
+              ]
+            }
+          ],
+          "challenge": "",
+          "challenges": {
+            "default": [
+              {
+                "drmSessionId": "session",
+                "clientTime": 1700000000,
+                "challengeBase64": ""
+              }
+            ]
+          },
+          "licenseType": "standard",
+          "xid": "170000000000000000"
+        },
+        "echo": ""
+      }
+    },
+    {
+      "name": "hdcp14",
+      "input": {
+        "videoId": "80100172",
+        "xid": "170000000000000000",
+        "hdcp": "HDCP-1.4",
+        "clientTimeSeconds": 1700000000
+      },
+      "endpoint": "https://www.netflix.com/msl/playapi/cadmium/licensedmanifest/1?reqAttempt=1&reqName=prefetch%2FlicensedManifest&clienttype=akira&uiversion=build-fixture-id&browsername=chrome&browserversion=159.0.fixture&osname=linux&osversion=6.1",
+      "request": {
+        "version": 2,
+        "url": "licensedManifest",
+        "id": 170000000000000000,
+        "languages": [
+          "pl-PL"
+        ],
+        "params": {
+          "type": "standard",
+          "manifestVersion": "v2",
+          "viewableId": 80100172,
+          "profiles": [
+            "heaac-2-dash",
+            "heaac-2hq-dash",
+            "BIF240",
+            "BIF320",
+            "playready-h264mpl30-dash",
+            "playready-h264mpl31-dash",
+            "playready-h264mpl40-dash",
+            "playready-h264hpl22-dash",
+            "playready-h264hpl30-dash",
+            "playready-h264hpl31-dash",
+            "playready-h264hpl40-dash",
+            "webvtt-lssdh-ios8",
+            "vp9-profile0-L21-dash-cenc",
+            "vp9-profile0-L30-dash-cenc",
+            "vp9-profile0-L31-dash-cenc",
+            "vp9-profile0-L40-dash-cenc"
+          ],
+          "flavor": "PRE_FETCH",
+          "drmType": "widevine",
+          "drmVersion": 25,
+          "usePsshBox": true,
+          "isBranching": false,
+          "useHttpsStreams": true,
+          "supportsUnequalizedDownloadables": true,
+          "imageSubtitleHeight": 1080,
+          "uiVersion": "ui-fixture-version",
+          "uiPlatform": "SHAKTI",
+          "clientVersion": "6.0-fixture",
+          "platform": "159.0.FIXTURE",
+          "osVersion": "6.1",
+          "osName": "Linux",
+          "supportsPreReleasePin": true,
+          "supportsWatermark": true,
+          "showAllSubDubTracks": false,
+          "videoOutputInfo": [
+            {
+              "type": "DigitalVideoOutputDescriptor",
+              "outputType": "unknown",
+              "supportedHdcpVersions": [],
+              "isHdcpEngaged": false
+            }
+          ],
+          "titleSpecificData": {
+            "80100172": {
+              "unletterboxed": true
+            }
+          },
+          "preferAssistiveAudio": false,
+          "isUIAutoPlay": false,
+          "isNonMember": false,
+          "desiredVmaf": "plus_lts",
+          "desiredSegmentVmaf": "plus_lts",
+          "requestSegmentVmaf": false,
+          "supportsPartialHydration": false,
+          "contentPlaygraph": [
+            "start"
+          ],
+          "supportsAdBreakHydration": true,
+          "liveMetadataFormat": "INDEXED_SEGMENT_TEMPLATE",
+          "useBetterTextUrls": true,
+          "profileGroups": [
+            {
+              "name": "default",
+              "profiles": [
+                "heaac-2-dash",
+                "heaac-2hq-dash",
+                "BIF240",
+                "BIF320",
+                "playready-h264mpl30-dash",
+                "playready-h264mpl31-dash",
+                "playready-h264mpl40-dash",
+                "playready-h264hpl22-dash",
+                "playready-h264hpl30-dash",
+                "playready-h264hpl31-dash",
+                "playready-h264hpl40-dash",
+                "webvtt-lssdh-ios8",
+                "vp9-profile0-L21-dash-cenc",
+                "vp9-profile0-L30-dash-cenc",
+                "vp9-profile0-L31-dash-cenc",
+                "vp9-profile0-L40-dash-cenc"
+              ]
+            }
+          ],
+          "challenge": "",
+          "challenges": {
+            "default": [
+              {
+                "drmSessionId": "session",
+                "clientTime": 1700000000,
+                "challengeBase64": ""
+              }
+            ]
+          },
+          "licenseType": "standard",
+          "xid": "170000000000000000"
+        },
+        "echo": ""
+      }
+    },
+    {
+      "name": "hdcp22",
+      "input": {
+        "videoId": "80100172",
+        "xid": "170000000000000000",
+        "hdcp": "HDCP-2.2",
+        "clientTimeSeconds": 1700000000
+      },
+      "endpoint": "https://www.netflix.com/msl/playapi/cadmium/licensedmanifest/1?reqAttempt=1&reqName=prefetch%2FlicensedManifest&clienttype=akira&uiversion=build-fixture-id&browsername=chrome&browserversion=159.0.fixture&osname=linux&osversion=6.1",
+      "request": {
+        "version": 2,
+        "url": "licensedManifest",
+        "id": 170000000000000000,
+        "languages": [
+          "pl-PL"
+        ],
+        "params": {
+          "type": "standard",
+          "manifestVersion": "v2",
+          "viewableId": 80100172,
+          "profiles": [
+            "heaac-2-dash",
+            "heaac-2hq-dash",
+            "BIF240",
+            "BIF320",
+            "playready-h264mpl30-dash",
+            "playready-h264mpl31-dash",
+            "playready-h264mpl40-dash",
+            "playready-h264hpl22-dash",
+            "playready-h264hpl30-dash",
+            "playready-h264hpl31-dash",
+            "playready-h264hpl40-dash",
+            "webvtt-lssdh-ios8",
+            "vp9-profile0-L21-dash-cenc",
+            "vp9-profile0-L30-dash-cenc",
+            "vp9-profile0-L31-dash-cenc",
+            "vp9-profile0-L40-dash-cenc"
+          ],
+          "flavor": "PRE_FETCH",
+          "drmType": "widevine",
+          "drmVersion": 25,
+          "usePsshBox": true,
+          "isBranching": false,
+          "useHttpsStreams": true,
+          "supportsUnequalizedDownloadables": true,
+          "imageSubtitleHeight": 1080,
+          "uiVersion": "ui-fixture-version",
+          "uiPlatform": "SHAKTI",
+          "clientVersion": "6.0-fixture",
+          "platform": "159.0.FIXTURE",
+          "osVersion": "6.1",
+          "osName": "Linux",
+          "supportsPreReleasePin": true,
+          "supportsWatermark": true,
+          "showAllSubDubTracks": false,
+          "videoOutputInfo": [
+            {
+              "type": "DigitalVideoOutputDescriptor",
+              "outputType": "unknown",
+              "supportedHdcpVersions": [
+                "2.2"
+              ],
+              "isHdcpEngaged": true
+            }
+          ],
+          "titleSpecificData": {
+            "80100172": {
+              "unletterboxed": true
+            }
+          },
+          "preferAssistiveAudio": false,
+          "isUIAutoPlay": false,
+          "isNonMember": false,
+          "desiredVmaf": "plus_lts",
+          "desiredSegmentVmaf": "plus_lts",
+          "requestSegmentVmaf": false,
+          "supportsPartialHydration": false,
+          "contentPlaygraph": [
+            "start"
+          ],
+          "supportsAdBreakHydration": true,
+          "liveMetadataFormat": "INDEXED_SEGMENT_TEMPLATE",
+          "useBetterTextUrls": true,
+          "profileGroups": [
+            {
+              "name": "default",
+              "profiles": [
+                "heaac-2-dash",
+                "heaac-2hq-dash",
+                "BIF240",
+                "BIF320",
+                "playready-h264mpl30-dash",
+                "playready-h264mpl31-dash",
+                "playready-h264mpl40-dash",
+                "playready-h264hpl22-dash",
+                "playready-h264hpl30-dash",
+                "playready-h264hpl31-dash",
+                "playready-h264hpl40-dash",
+                "webvtt-lssdh-ios8",
+                "vp9-profile0-L21-dash-cenc",
+                "vp9-profile0-L30-dash-cenc",
+                "vp9-profile0-L31-dash-cenc",
+                "vp9-profile0-L40-dash-cenc"
+              ]
+            }
+          ],
+          "challenge": "",
+          "challenges": {
+            "default": [
+              {
+                "drmSessionId": "session",
+                "clientTime": 1700000000,
+                "challengeBase64": ""
+              }
+            ]
+          },
+          "licenseType": "standard",
+          "xid": "170000000000000000"
+        },
+        "echo": ""
+      }
+    }
+  ],
+  "emptyMetadataEndpoint": "https://www.netflix.com/msl/playapi/cadmium/licensedmanifest/1?reqAttempt=1&reqName=prefetch%2FlicensedManifest&clienttype=akira&uiversion=&browsername=chrome&browserversion=&osname=&osversion="
+}
